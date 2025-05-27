@@ -18,7 +18,7 @@ This enhanced node adds the following features on top of the original functional
 2. **独立的帧索引**：每个插入图像都有自己的帧索引设置
 3. **Independent Mask Support**: Each inserted image can have its own mask
 3. **独立的遮罩支持**：每个插入图像都可以有自己的遮罩
-4. **Overlay Processing**: Supports overlay processing of start_image, end_image, control_images, and multiple insert_images
+4. **Overlay Processing**: Supports overlay processing of start_image, end_image, control_images, and multiple insert_images 
 4. **叠加处理**：支持start_image、end_image、control_images和多个insert_images的叠加处理
 5. **Correct Blending Logic**: White mask areas display the inserted image, while black areas display the original content
 5. **正确的混合逻辑**：白色遮罩区域显示插入图像，黑色区域显示原有内容
