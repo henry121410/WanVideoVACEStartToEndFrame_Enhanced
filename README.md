@@ -1,6 +1,7 @@
 # ComfyUI-MyWanVideoVACE
 
 An enhanced version of the WanVideo VACE node package, providing extended functionality to the original `WanVideoVACEStartToEndFrame` node.
+This project is an enhanced version of a node from the [ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) repository.
 这是一个增强版的WanVideo VACE节点包，提供了对原始`WanVideoVACEStartToEndFrame`节点的扩展功能。
 
 ## Features
