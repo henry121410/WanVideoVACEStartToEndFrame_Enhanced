@@ -13,15 +13,15 @@ This enhanced node adds the following features on top of the original functional
 这个增强版节点在原有功能基础上添加了以下特性：
 
 1. **Multiple Image Insertion Support**: Supports inserting up to 6 images simultaneously (original insert_image + 5 numbered images)
-1. **多图像插入支持**：支持同时插入最多6个图像（原始insert_image + 5个编号图像）
+**多图像插入支持**：支持同时插入最多6个图像（原始insert_image + 5个编号图像）
 2. **Independent Frame Indices**: Each inserted image has its own frame index setting
-2. **独立的帧索引**：每个插入图像都有自己的帧索引设置
+**独立的帧索引**：每个插入图像都有自己的帧索引设置
 3. **Independent Mask Support**: Each inserted image can have its own mask
-3. **独立的遮罩支持**：每个插入图像都可以有自己的遮罩
-4. **Overlay Processing**: Supports overlay processing of start_image, end_image, control_images, and multiple insert_images 
-4. **叠加处理**：支持start_image、end_image、control_images和多个insert_images的叠加处理
+**独立的遮罩支持**：每个插入图像都可以有自己的遮罩
+4. **Overlay Processing**: Supports overlay processing of start_image, end_image, control_images, and multiple insert_images
+**叠加处理**：支持start_image、end_image、control_images和多个insert_images的叠加处理
 5. **Correct Blending Logic**: White mask areas display the inserted image, while black areas display the original content
-5. **正确的混合逻辑**：白色遮罩区域显示插入图像，黑色区域显示原有内容
+**正确的混合逻辑**：白色遮罩区域显示插入图像，黑色区域显示原有内容
 
 ## Input Parameters
 ## 输入参数
@@ -64,13 +64,13 @@ This enhanced node adds the following features on top of the original functional
 ## 使用方法
 
 1. Place this folder in the `custom_nodes` directory of ComfyUI
-1. 将此文件夹放置在ComfyUI的`custom_nodes`目录下
+将此文件夹放置在ComfyUI的`custom_nodes`目录下
 2. Restart ComfyUI
-2. 重启ComfyUI
+重启ComfyUI
 3. Find the "WanVideoWrapper/Enhanced" category in the node menu
-3. 在节点菜单中找到"WanVideoWrapper/Enhanced"分类
+在节点菜单中找到"WanVideoWrapper/Enhanced"分类
 4. Use the "WanVideo VACE Start To End Frame (Enhanced)" node
-4. 使用"WanVideo VACE Start To End Frame (Enhanced)"节点
+使用"WanVideo VACE Start To End Frame (Enhanced)"节点
 
 ## Blending Logic
 ## 混合逻辑
@@ -86,13 +86,13 @@ This enhanced node adds the following features on top of the original functional
 ## 注意事项
 
 1. This is an independent node package and will not be overwritten by updates from the original author
-1. 这是一个独立的节点包，不会被原作者的更新覆盖
+这是一个独立的节点包，不会被原作者的更新覆盖
 2. All images will be automatically resized to match the target dimensions
-2. 所有图像会自动调整大小以匹配目标尺寸
+所有图像会自动调整大小以匹配目标尺寸
 3. Frame indices will be automatically limited to the valid range
-3. 帧索引会自动限制在有效范围内
+帧索引会自动限制在有效范围内
 4. Supports alpha channel as mask, and can also use independent mask input
-4. 支持alpha通道作为遮罩，也可以使用独立的遮罩输入
+支持alpha通道作为遮罩，也可以使用独立的遮罩输入
 
 ## Compatibility
 ## 兼容性
